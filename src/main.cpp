@@ -50,9 +50,9 @@ void setup()
   {
     Serial.println();
     Serial.println("Failed to connect to Backpack WiFi.");
-    Serial.println("Check if " + apSsid + " is available or connect to '" +
+    Serial.println("Check if backpack WiFi ('" + backpackSsid + "') is available or connect to '" +
                    apSsid + "' network and open " + networkService.getApIp().toString() +
-                   " in order to configure backpack ssid and password.");
+                   " in order to configure backpack SSID and password.");
   }
 
   Serial.println("Setup finished. Entering main loop...");
